@@ -46,6 +46,87 @@ public class Th04Application implements CommandLineRunner {
 		System.out.println();
 		System.out.println("----------Cau 5----------");
 		cbserv.cau5().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 6----------");
+		System.out.println(cbserv.cau6());
+		System.out.println();
+		System.out.println("----------Cau 7----------");
+		System.out.println(mbserv.cau7());
+		System.out.println();
+		System.out.println("----------Cau 8----------");
+		System.out.println(nvserv.cau8());
+		System.out.println();
+		System.out.println("----------Cau 9----------");
+		cnserv.cau9().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 10----------");
+		nvserv.cau10().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 11----------");
+		mbserv.cau11().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 12----------");
+		nvserv.cau12().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 13----------");
+		mbserv.cau13().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 14----------");
+		cbserv.cau14().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 15----------");
+		nvserv.cau15().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 16----------");
+		for (Object[] objects : mbserv.cau16()) {
+			System.out.println(objects[0] + " == " + objects[1] + " == " + objects[2]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 17----------");
+		cbserv.cau17().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 18----------");
+		for (Object[] objects : cbserv.cau18()) {
+			System.out.println(objects[0] + " == " + objects[1]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 19----------");
+		for (Object[] objects : cbserv.cau19()) {
+			System.out.println(objects[0] + " == " + objects[1]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 20----------");
+		cbserv.cau20().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 21----------");
+		for (Object[] objects : cbserv.cau21()) {
+			System.out.println(objects[0] + " == " + objects[1]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 22----------");
+		nvserv.cau22().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 23----------");
+		for (Object[] objects : nvserv.cau23()) {
+			System.out.println(objects[0] + " == " + objects[1]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 24----------");
+		for (Object[] objects : nvserv.cau24()) {
+			System.out.println(objects[0] + " == " + objects[1]);
+		}
+		System.out.println();
+		System.out.println("----------Cau 25----------");
+		nvserv.cau25().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 26----------");
+		nvserv.cau26().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 27----------");
+		System.out.println(nvserv.cau27());
+		System.out.println();
+		System.out.println("----------Cau 28----------");
+		cbserv.cau28().forEach(System.out::println);
 	}
 
 }
