@@ -31,21 +31,21 @@ public class Th04Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-//		System.out.println();
-//		System.out.println("----------Cau 1----------");
-//		cbserv.cau1().forEach(System.out::println);
-//		System.out.println();
-//		System.out.println("----------Cau 2----------");
-//		mbserv.cau2().forEach(System.out::println);
-//		System.out.println();
-//		System.out.println("----------Cau 3----------");
-//		nvserv.cau3().forEach(System.out::println);
-//		System.out.println();
-//		System.out.println("----------Cau 4----------");
-//		cbserv.cau4().forEach(System.out::println);
-//		System.out.println();
-//		System.out.println("----------Cau 5----------");
-//		cbserv.cau5().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 1----------");
+		cbserv.cau1().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 2----------");
+		mbserv.cau2().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 3----------");
+		nvserv.cau3().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 4----------");
+		cbserv.cau4().forEach(System.out::println);
+		System.out.println();
+		System.out.println("----------Cau 5----------");
+		cbserv.cau5().forEach(System.out::println);
 	}
 
 }
